@@ -1,0 +1,27 @@
+{
+  "name": "ecommerceshop-microservice-cart",
+  "version": "1.0.0",
+  "description": "Ecommerce Shop microservice for carts .",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamim-hmizi/EcommerceShop-microservice-Cart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/tamim-hmizi/EcommerceShop-microservice-Cart/issues"
+  },
+  "homepage": "https://github.com/tamim-hmizi/EcommerceShop-microservice-Cart#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1"
+  }
+}
