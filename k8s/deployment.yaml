@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: cart-service
-          image: your-dockerhub-username/cart-service:latest
+          image: quickops.dc2.cloudapp.xpressazure.com:5000/cart-service:1
           ports:
             - containerPort: 5000
           resources:
