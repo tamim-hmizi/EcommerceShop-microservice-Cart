@@ -30,8 +30,3 @@ spec:
                 configMapKeyRef:
                   name: cart-config
                   key: MONGO_URI
-            - name: JWT_SECRET
-              valueFrom:
-                configMapKeyRef:
-                  name: cart-config
-                  key: JWT_SECRET
